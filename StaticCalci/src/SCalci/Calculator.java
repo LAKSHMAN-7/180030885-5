@@ -3,10 +3,10 @@ import java.util.*;
 public class Calculator {
     Calculator()
 	{
-		int powerInt(int num1,int num2){
+		public int powerInt(int num1,int num2){
 			return Math.pow(num1, num2);
 		}
-	    double powerDouble(double num3,double num4){
+	    public double powerDouble(double num3,double num4){
 			return Math.pow(num3, num4);
 			}
 	}
