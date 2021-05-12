@@ -1,14 +1,20 @@
 package SCalci;
 import java.util.*;
 public class Calculator {
+	int res;
+	double res1;
     Calculator()
 	{
-		public int powerInt(int num1,int num2){
-			return Math.pow(num1, num2);
-		}
-	    public double powerDouble(double num3,double num4){
-			return Math.pow(num3, num4);
-			}
+    	public int powerInt(int num1,int num2)
+        {
+    		res = (int) Math.pow(num1, num2);
+    		return res;
+    	}
+        public double powerDouble(double num3,double num4)
+        {
+    		res1 = Math.pow(num3, num4);
+    		return res1;
+    	}
 	}
 
 	public static void main(String[] args) {
