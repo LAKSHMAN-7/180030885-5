@@ -12,7 +12,8 @@ public class MaxAndMin {
 		{
 			 array[i]=sc.nextInt();
 		}
-	    // Calling getMax() method for getting max value
+	    // 
+		Calling getMax() method for getting max value
 	    int max = getMax(array);
 	    System.out.println("Maximum Value is: "+max);
 	 
